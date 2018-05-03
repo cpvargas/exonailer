@@ -1,0 +1,16 @@
+# Parameter Name                   Prior Type    Parameters    Initial guess 
+P                                  Uniform       6.55,6.60       6.57
+t0                                 Uniform       2457588.280,2457589.285 2457588.2825
+a                                  Uniform       1,20          5.0
+p                                  Uniform       0.01,0.2      0.1
+inc                                Uniform       70,90         87.0
+sigma_w                            Jeffreys      0.01,1000.0   100.0
+q1                                 Uniform       0,1           0.5
+q2                                 Uniform       0,1           0.5
+ecc                                Uniform       0,1           0.1
+omega                              Uniform       0,180.        90.
+mu_CORALIE                         Normal        1.22,0.05     1.2
+mu_HARPS                           Normal        1.24,0.05     1.2
+K                                  Normal        0.1,0.1       0.1 
+sigma_w_rv_CORALIE                 Jeffreys      0.0001,0.1    0.001
+sigma_w_rv_HARPS                   Jeffreys      0.0001,0.1    0.001
